@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Surya Nugraha</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .custom-img {
+        width: 300px;
+        height: 300px;
+        background: url("assets/img/Profil.png") no-repeat center center;
+        background-size: cover;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      }
+    </style>
+  </head>
+  <body class="bg-gray-900 text-gray-200">
+    <!-- Navbar -->
+    <nav class="bg-gray-800 p-4">
+      <div class="container mx-auto flex justify-between items-center px-6">
+        <a href="#" class="text-xl font-bold">Portfolio</a>
+        <div class="space-x-4">
+          <a href="#hero" class="hover:text-gray-400">Home</a>
+          <a href="#tutorial" class="hover:text-gray-400">Tutorial Hosting</a>
+          <a href="#projects" class="hover:text-gray-400">Projects</a>
+          <a href="#article" class="hover:text-gray-400">Artikel</a>
+          <a href="#contact" class="hover:text-gray-400">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gray-900 py-16">
+      <div
+        class="container mx-auto flex flex-col md:flex-row items-center px-6"
+      >
+        <!-- Keterangan Diri -->
+        <div class="w-full md:w-1/2 text-center md:text-left px-6">
+          <h1 class="text-3xl font-bold mb-4">Muhamad Surya Nugraha</h1>
+          <h2 class="text-2xl mb-4">NIM : 607012300141</h2>
+          <h2 class="text-2xl mb-4">Kelas : 47-05</h2>
+          <!-- <p class="text-base mb-6">
+            Saya adalah seorang UI/UX Designer dan Front End Web Developer
+            dengan pengalaman dalam design. Saya memiliki passion dalam
+            menciptakan antarmuka yang intuitif dan pengalaman pengguna yang
+            menyenangkan. Saya senang untuk selalu berusaha untuk meningkatkan
+            keterampilan saya melalui eksplorasi desain dan berkolaborasi dengan
+            tim.
+          </p> -->
+          <!-- <a
+            href="#projects"
+            class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700"
+            >Lihat Project Saya</a
+          > -->
+        </div>
+        <!-- Foto Diri -->
+        <div
+          class="w-full md:w-1/2 flex justify-center md:justify-end px-6 mt-6 md:mt-0"
+        >
+          <div class="custom-img"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tutorial Section -->
+    <section id="tutorial" class="bg-gray-900 py-16">
+      <div class="container mx-auto px-6">
+        <h2 class="text-2xl font-bold text-center text-white mb-12">
+          Tutorial Hosting
+        </h2>
+        <div class="flex justify-center">
+          <div class="bg-gray-800 shadow-lg rounded-lg p-12">
+            <h3 class="text-xl font-bold mb-4">
+              Panduan Lengkap Melakukan Hosting pada Netlify (PDF)
+            </h3>
+            <a
+              href="assets/pdf/tutorial.pdf"
+              class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 inline-block"
+            >
+              Download PDF
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="projects" class="py-16 bg-gray-800">
+      <div class="container mx-auto px-6">
+        <h2 class="text-2xl font-bold text-center mb-12">Project Saya</h2>
+        <div class="flex justify-center">
+          <div
+            class="bg-gray-800 shadow-lg rounded-lg overflow-hidden max-w-xs"
+          >
+            <img
+              src="assets/img/project.jpg"
+              alt="Project Image"
+              class="w-96 h-48 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">
+                <a href="https://vernatura.netlify.app" class="hover:underline"
+                  >Vernatura</a
+                >
+              </h3>
+              <p class="text-gray-300 text-sm">
+                Merupakan Website Tour dan Travel yang dirancang berdasarkan
+                kebutuhan pengguna yang ingin melakukan perjalanan secara
+                proporsional melalui pendekatan paint point dan pengalaman
+                pengguna ketika melakukan perjalanan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Network Equipment Section -->
+    <section id="article" class="bg-gray-900 py-16">
+      <div class="container mx-auto px-6">
+        <h2 class="text-2xl font-bold text-center mb-12">
+          Artikel Perangkat Jaringan Komputer
+        </h2>
+        <div class="flex flex-col md:flex-row items-center">
+          <!-- Konten Gambar -->
+          <div class="w-full md:w-1/2 px-6">
+            <img
+              src="assets/img/switch-nvr.jpg"
+              alt="switch-nvr"
+              class="w-full h-64 object-cover rounded-lg"
+            />
+          </div>
+          <!-- Penjelasan -->
+          <div class="w-full md:w-1/2 px-6 mt-6 md:mt-0">
+            <h3 class="text-xl font-bold mb-2">Switch NVR</h3>
+            <p class="text-base">
+              Switch NVR (Network Video Recorder) merupakan perangkat sentral
+              dalam sistem keamanan berbasis IP yang berfungsi untuk merekam dan
+              mengelola video dari kamera keamanan IP secara efisien. Switch NVR
+              menerima data video digital langsung dari kamera-kamera IP,
+              memprosesnya dengan prosesor yang kuat, dan menyimpannya dalam
+              kapasitas penyimpanan yang besar. Perangkat ini tidak hanya
+              memfasilitasi rekaman video real-time dan pengaturan jadwal
+              rekaman, tetapi juga memungkinkan akses dan pengelolaan dari jarak
+              jauh melalui jaringan IP yang terhubung. Dengan dukungan terhadap
+              berbagai protokol keamanan, switch NVR menjaga keamanan data yang
+              disimpan dan dapat diintegrasikan dengan sistem manajemen video
+              (VMS) untuk manajemen yang lebih terpusat dan efektif.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-800 py-8">
+      <div class="container mx-auto text-center px-6">
+        <p class="text-lg mb-4">Kontak Saya</p>
+        <p class="text-sm">
+          Email:
+          <a href="suryanugraha355@gmail.com" class="hover:underline"
+            >suryanugraha355@gmail.com</a
+          >
+        </p>
+        <p class="text-sm">
+          LinkedIn:
+          <a href="https://linkedin.com/in/username" class="hover:underline"
+            >https://www.linkedin.com/in/muhamad-surya-nugraha/</a
+          >
+        </p>
+        <p class="text-sm mt-4">
+          Copyright &copy; 2023 Muhamad Surya Nugraha. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
